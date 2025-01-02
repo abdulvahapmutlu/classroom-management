@@ -68,8 +68,6 @@ The project follows a modular and organized structure, ensuring scalability and 
 ```
 course-management-platform/
 │
-├── README.md
-├── .gitignore
 ├── backend/
 │   ├── app.js
 │   ├── config/
@@ -106,7 +104,6 @@ course-management-platform/
 │   │   ├── generate_password_hashes.js
 │   ├── .env.example
 │   ├── package.json
-│   └── README.md (Optional for the backend)
 ├── frontend/
 │   ├── html/
 │   │   ├── dersler.html
@@ -167,7 +164,35 @@ The platform was deployed using a robust and scalable deployment pipeline:
    - PostgreSQL was set up with proper security measures and managed using Sequelize ORM for database migrations and models.
 
 ## Screenshots
-- Add screenshots from the application to showcase the user interface and functionality.
+## Screenshots
+
+### Login
+![Login](https://github.com/abdulvahapmutlu/classroom-management/raw/main/screenshots/ss1.png)
+
+### Lesson Page
+![Lesson Page](https://github.com/abdulvahapmutlu/classroom-management/raw/main/screenshots/ss2.png)
+
+### Lesson Adding
+![Lesson Adding](https://github.com/abdulvahapmutlu/classroom-management/raw/main/screenshots/ss3.png)
+
+### Lesson Delete
+![Lesson Delete](https://github.com/abdulvahapmutlu/classroom-management/raw/main/screenshots/ss4.png)
+
+### Class Scheduling Page
+![Class Scheduling](https://github.com/abdulvahapmutlu/classroom-management/raw/main/screenshots/ss5.png)
+
+### Teachers Page
+![Teachers Page](https://github.com/abdulvahapmutlu/classroom-management/raw/main/screenshots/ss6.png)
+
+### Student Adding
+![Student Adding](https://github.com/abdulvahapmutlu/classroom-management/raw/main/screenshots/ss7.png)
+
+### Packs
+![Packs](https://github.com/abdulvahapmutlu/classroom-management/raw/main/screenshots/ss8.png)
+
+### Financial Tracking
+![Financial Tracking](https://github.com/abdulvahapmutlu/classroom-management/raw/main/screenshots/ss9.png)
+
 
 ## Disclaimer
 This repository serves as a showcase for the project and includes only non-sensitive information. The full codebase is proprietary and not available for public access.
